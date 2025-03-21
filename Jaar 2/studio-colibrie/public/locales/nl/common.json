@@ -1,0 +1,21 @@
+{
+    "header": {
+        "home": "Home",
+        "bureau": "Over",
+        "contact": "Contact",
+        "werken": "Projecten"
+    },
+    "about": {
+    "title": "Onze Visie",
+    "description": "Architectuur begint met een idee. Een schets op papier, een visie die groeit. Maar tussen droom en werkelijkheid liggen talloze uitdagingen. Wij geloven dat technologie een architect niet moet beperken, maar juist moet ondersteunen—zodat creativiteit de ruimte krijgt die het verdient. Bij [Bedrijfsnaam] komt ervaring en innovatie samen. Vader en dochter, architect en IT-student, bouwen samen aan een toekomst waarin architecten moeiteloos kunnen creëren. Waar technologie geen barrière is, maar een verlengstuk van verbeelding. Wij maken het werk van architecten eenvoudiger, slimmer en intuïtiever, zodat zij zich kunnen richten op wat écht telt: het ontwerpen van de wereld van morgen."
+  },
+  "contact": {
+    "contact_title": "Contacteer Ons"
+    },
+    "language": {
+        "title": "Taal",
+        "en": "Engels",
+        "nl": "Nederlands",
+        "fr": "Frans"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "header": {
+        "home": "Accueil",
+        "bureau": "À propos",
+        "contact": "Contact",
+        "werken": "Projets"
+    },
+    "about": {
+        "title": "À propos de nous",
+        "description": "Bienvenue chez Chrétien Claessens Architectes, un cabinet d'architecture de premier plan avec une riche expérience dans les secteurs privé et commercial. Notre équipe passionnée se compose de quatre personnes talentueuses, dédiées à concrétiser vos visions architecturales."
+      },
+      "expertise": {
+        "title": "Notre expertise",
+        "description": "Avec un portefeuille impressionnant de magnifiques maisons privées et de conceptions commerciales réfléchies, nous nous sommes affirmés comme des leaders dans l'industrie. Nos projets reflètent non seulement le savoir-faire, mais aussi notre compréhension approfondie de vos besoins et de votre vision."
+      },
+      "privateSector": {
+        "title": "Secteur privé",
+        "description": "Nous croyons que votre maison doit refléter votre personnalité et votre style de vie. Que ce soit pour une rénovation élégante ou un nouveau design sur mesure, nous transformons vos rêves en espaces de vie magnifiques."
+      },
+      "commercialSector": {
+        "title": "Secteur commercial",
+        "description": "Pour les entrepreneurs, nous concevons des espaces commerciaux innovants qui inspirent et favorisent l'efficacité. Nous comprenons que votre entreprise est unique et créons des solutions qui le reflètent."
+      },
+      "mission": {
+        "title": "Notre mission",
+        "description": "Chez Chrétien Claessens Architectes, nous visons l'excellence dans chaque aspect de notre travail. Nous combinons nos décennies d'expérience avec une passion inégalée pour le design afin de donner vie à votre vision. Ensemble, nous pouvons rendre le monde autour de nous plus beau et fonctionnel."
+      },
+      "team": {
+        "title": "Notre équipe",
+        "chretien": "Chrétien Claessens",
+        "michael": "Michael Martens",
+        "philippe": "Philippe Bex",
+        "pieter": "Pieter Jermei"
+      },
+      "contact": {
+      "contact_title": "Contactez Nous",
+      "contact_intro": "Bienvenue chez Chrétien Claessens Architectes ! Nous sommes ravis que vous souhaitiez nous contacter et nous avons hâte de vous entendre. Ci-dessous, vous trouverez plusieurs façons de nous contacter :",
+      "hours": "HEURES D'OUVERTURE",
+      "opening_hours": "Lundi - Vendredi: {{start}} - {{end}}",
+      "details": "DÉTAILS",
+      "phone": "Tél: {{phone}}",
+      "email": "E-mail: {{email}}",
+      "location": "EMPLACEMENT DU BUREAU",
+      "location_address": "Kapeldreef 15, 3220 Holsbeek",
+      "appointment": "PRENDRE RENDEZ-VOUS",
+      "appointment_text": "Nous vous encourageons à prendre rendez-vous pour discuter de votre projet ou poser des questions. Notre équipe est prête à vous aider et à concrétiser votre vision."
+    },
+    "language": {
+        "title": "Langue",
+        "en": "Anglais",
+        "nl": "Néerlandais",
+        "fr": "Français"
+    }
+}
