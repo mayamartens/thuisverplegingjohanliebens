@@ -1,0 +1,16 @@
+# Robots.txt for Thuisverpleging Johan Liebens
+# https://www.thuisverplegingjohanliebens.be
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.thuisverplegingjohanliebens.be/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Block admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/

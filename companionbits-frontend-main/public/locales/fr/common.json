@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Soins infirmiers à domicile Johan Liebens"
+  },
+  "menu": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "plan": "Prendre rendez-vous"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "en": "English",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": "Soins infirmiers Johan Liebens",
+    "subtitle": "15 ans de soins à domicile fiables",
+    "discoverServices": "Découvrez nos services",
+    "contactUs": "Appelez-nous"
+  },
+  "services": {
+    "title": "Nos Services",
+    "general": {
+      "title": "Soins à domicile avec une touche personnelle",
+      "description": "Notre équipe d'<strong>infirmiers expérimentés</strong> s'engage chaque jour à vous offrir les meilleurs soins à domicile.\n\n<strong>L'empathie, l'engagement et l'humanité</strong> sont au cœur de notre approche.\n\nUn mot gentil, une oreille attentive ou une présence rassurante - c'est cela, les bons soins."
+    },
+    "woundCare": {
+      "title": "Soins des plaies sur mesure",
+      "description": "Vous pouvez compter sur nous pour le traitement de <strong>tous types de plaies</strong>.\n\nNotre équipe a une vaste expérience avec:\n• Les brûlures\n• Les escarres\n• Les plaies d'amputation\n• Les plaies postopératoires\n• Les plaies oncologiques\n\n<strong>Chaque traitement</strong> se fait en consultation avec votre médecin."
+    },
+    "palliative": {
+      "title": "Soins palliatifs avec respect et humanité",
+      "description": "Grâce à nos <strong>années d'expérience</strong>, notre équipe propose des soins palliatifs.\n\nCes soins sont entièrement axés sur le <strong>confort, la tranquillité et la dignité</strong>.\n\nNous respectons vos souhaits et ceux de vos proches. Nous prenons notre temps, écoutons et apportons un soutien là où c'est nécessaire."
+    },
+    "hygiene": {
+      "title": "Soins d'hygiène avec ce petit plus",
+      "description": "Lorsque les soins quotidiens deviennent difficiles, nous sommes prêts avec un <strong>soutien discret et professionnel</strong>.\n\nNos services comprennent:\n• Aide à la toilette et à l'habillage\n• Soins d'hygiène quotidiens\n• Soins des cheveux et des oreilles\n• Coupe des ongles\n• Hydratation du corps\n\nPour que vous vous sentiez <strong>confortable et soigné</strong> chez vous."
+    },
+    "nursing": {
+      "title": "Actes infirmiers à domicile",
+      "description": "Nous effectuons des <strong>actes infirmiers professionnels</strong> à votre domicile:\n\n• Rinçage de Port-a-cath\n• Irrigations vésicales\n• Mesure de la tension artérielle\n• Prélèvements sanguins\n• Remplissage des piluliers\n• Thérapie de compression\n• Thérapie par perfusion\n• Administration de médicaments\n• Administration de gouttes oculaires\n\n<strong>Des soins experts</strong> dans votre environnement familier."
+    },
+    "stoma": {
+      "title": "Soins de stomie spécialisés",
+      "description": "Notre équipe est <strong>spécialisée dans les soins de stomie</strong> à domicile.\n\nNous assurons des soins corrects et confortables de la stomie.\n\nSi vous le souhaitez, <strong>nous vous apprenons</strong> à prendre soin de la stomie vous-même. Cela vous donne plus d'autonomie, avec un soutien professionnel à portée de main."
+    }
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "<strong>Soins infirmiers Johan Liebens</strong> est une équipe expérimentée d'infirmiers à domicile qui offre des <strong>soins de qualité depuis 15 ans</strong> dans la région de Kortenberg et Louvain.\n\nNous combinons une expertise professionnelle avec une <strong>approche personnelle et humaine</strong>, adaptée à vos besoins.\n\n<strong>Notre mission est claire:</strong> soutenir les personnes dans leur rétablissement et leur bien-être, dans leur propre environnement familier.\n\nQu'il s'agisse de soins des plaies, de soins d'hygiène, de soins palliatifs ou de soins de stomie - notre équipe est prête chaque jour avec <strong>connaissance, soin et respect</strong>.\n\nNous croyons que les bons soins vont au-delà des seuls actes médicaux. C'est pourquoi nous prenons le temps d'écouter et de travailler ensemble pour trouver la meilleure solution.\n\n<strong>Soins infirmiers Johan Liebens est disponible 24/7</strong> - week-ends et jours fériés inclus."
+  },
+  "area": {
+    "title": "Notre Zone de Service",
+    "description": "Soins infirmiers Johan Liebens propose des soins professionnels à domicile dans tout le Brabant flamand. Nous vous rendons visite dans les communes ci-dessous et les environs."
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "q1": "Combien coûtent les soins infirmiers à domicile?",
+    "a1": "Les soins infirmiers à domicile sont en grande partie remboursés par l'assurance maladie. Le montant exact dépend de vos besoins en soins et de votre assurance. N'hésitez pas à nous contacter pour une estimation personnelle.",
+    "q2": "Dans quelle région êtes-vous actif?",
+    "a2": "Nous sommes actifs à Kortenberg, Louvain, Bertem, Zaventem, Steenokkerzeel, Perk, Leefdaal, Herent, Kessel-Lo, Oud-Heverlee, Heverlee, Wilsele et toutes les communes environnantes du Brabant flamand.",
+    "q3": "Les soins sont-ils disponibles le week-end?",
+    "a3": "Oui, nous sommes disponibles 24 heures sur 24, 7 jours sur 7. Nous sommes également disponibles les week-ends et jours fériés. Vous pouvez toujours compter sur nous.",
+    "q4": "Quels soins un infirmier à domicile fournit-il?",
+    "a4": "Nos infirmiers à domicile fournissent des soins des plaies, des soins palliatifs, des soins d'hygiène, des soins de stomie, des prélèvements sanguins, une thérapie par perfusion, une gestion des médicaments et de nombreux autres actes infirmiers à domicile.",
+    "q5": "Comment demander des soins infirmiers à domicile?",
+    "a5": "C'est très simple! Appelez-nous au 0471 92 05 81 ou envoyez un e-mail à liebens.johan@telenet.be. Une prescription de votre médecin est souvent nécessaire pour le remboursement. Nous vous guidons volontiers dans les démarches administratives."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "available": "Disponible 24/7 - week-ends inclus",
+    "success": "Formulaire envoyé avec succès!",
+    "error": "Erreur lors de l'envoi du formulaire.",
+    "errorRetry": "Erreur lors de l'envoi – veuillez réessayer plus tard.",
+    "errors": {
+      "nameRequired": "Le nom est obligatoire",
+      "emailRequired": "L'e-mail est obligatoire",
+      "emailInvalid": "Adresse e-mail invalide",
+      "messageRequired": "Le message est obligatoire"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "links": "Liens"
+  },
+  "random": {
+    "privacy": "GDPR"
+  },
+  "accessibility": {
+    "backToTop": "Retour en haut"
+  },
+  "usp": {
+    "available": "Disponible 24/7",
+    "experience": "15 Ans d'Expérience",
+    "care": "Soins avec Amour"
+  },
+  "vacancy": {
+    "title": "Travailler avec nous?",
+    "looking": "Nous recherchons un(e) infirmier(ère) ou aide-soignant(e)!",
+    "days": "Les jours sont à convenir",
+    "contact": "Contactez-nous"
+  }
+}

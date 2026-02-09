@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Home Nursing Johan Liebens - Care at Home"
+  },
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "contact": "Contact",
+    "plan": "Make an appointment"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "en": "English",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": "Home Nursing Johan Liebens",
+    "subtitle": "15 years of reliable home care you can trust",
+    "discoverServices": "Discover our services",
+    "contactUs": "Call us now"
+  },
+  "services": {
+    "title": "Our Services",
+    "general": {
+      "title": "General home care with a personal touch",
+      "description": "Our team of <strong>experienced home nurses</strong> is dedicated every day to providing you with the best care at home.\n\n<strong>Empathy, commitment and humanity</strong> are central to our approach.\n\nA friendly word, a listening ear or a reassuring presence - that's what good care is all about."
+    },
+    "woundCare": {
+      "title": "Customized wound care",
+      "description": "You can count on us for the care of <strong>all types of wounds</strong>.\n\nOur team has extensive experience with:\n• Burns\n• Pressure ulcers\n• Amputation wounds\n• Postoperative wounds\n• Oncological wounds\n\n<strong>Every treatment</strong> is done in consultation with your doctor, so we choose the best care strategy."
+    },
+    "palliative": {
+      "title": "Palliative care with respect and humanity",
+      "description": "Thanks to our <strong>years of experience</strong>, our team provides palliative care.\n\nThis care is fully focused on <strong>comfort, peace and dignity</strong>.\n\nWe respect the wishes of you and your loved ones. We take our time, listen and provide support where needed."
+    },
+    "hygiene": {
+      "title": "Hygienic care with that little extra",
+      "description": "When daily care becomes difficult, we are ready with <strong>discrete and professional support</strong>.\n\nOur services include:\n• Help with washing and dressing\n• Daily hygienic care\n• Hair and ear care\n• Nail cutting\n• Body hydration\n\nSo you feel <strong>comfortable and cared for</strong> in your own home."
+    },
+    "nursing": {
+      "title": "Nursing procedures at home",
+      "description": "We perform <strong>professional nursing procedures</strong> at your home:\n\n• Flushing of Port-a-cath\n• Bladder irrigations\n• Blood pressure measurement\n• Blood sampling with lab control\n• Filling medication boxes\n• Compression therapy\n• Infusion therapy\n• Administering medication\n• Administering eye drops\n\n<strong>Expert care</strong> in your familiar environment."
+    },
+    "stoma": {
+      "title": "Specialized stoma care",
+      "description": "Our team <strong>specializes in stoma care</strong> at home.\n\nWe ensure proper and comfortable care of the stoma.\n\nIf desired, <strong>we teach you</strong> how to care for the stoma yourself. This gives you more independence, with professional support within reach."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "<strong>Home Nursing Johan Liebens</strong> is an experienced team of home nurses that has been providing <strong>quality home care for 15 years</strong> in the Kortenberg and Leuven region.\n\nWe combine professional expertise with a <strong>personal and human approach</strong>, tailored to your needs.\n\n<strong>Our mission is clear:</strong> supporting people in their recovery and well-being, in their own familiar environment.\n\nWhether it concerns wound care, hygienic care, palliative care or stoma care - our team is ready every day with <strong>knowledge, care and respect</strong>.\n\nWe believe that good care goes beyond medical procedures alone. That's why we take the time to listen and work together to find the best solution.\n\n<strong>Home Nursing Johan Liebens is available 24/7</strong> - including weekends and holidays."
+  },
+  "area": {
+    "title": "Our Service Area",
+    "description": "Home Nursing Johan Liebens provides professional home care throughout Flemish Brabant. We visit you at home in the municipalities listed below and surrounding areas."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "What does home nursing cost?",
+    "a1": "Home nursing is largely reimbursed by health insurance. The exact amount depends on your care needs and insurance. Feel free to contact us for a personal estimate - we're happy to help.",
+    "q2": "In which region are you active?",
+    "a2": "We are active in Kortenberg, Leuven, Bertem, Zaventem, Steenokkerzeel, Perk, Leefdaal, Herent, Kessel-Lo, Oud-Heverlee, Heverlee, Wilsele and all surrounding municipalities in Flemish Brabant.",
+    "q3": "Is home nursing available on weekends?",
+    "a3": "Yes, we are available 24 hours a day, 7 days a week. We are also available on weekends and holidays. You can always count on us.",
+    "q4": "What care does a home nurse provide?",
+    "a4": "Our home nurses provide wound care, palliative care, hygienic care, stoma care, blood sampling, infusion therapy, medication management, compression therapy and many other nursing procedures at home.",
+    "q5": "How do I request home nursing?",
+    "a5": "Very simple! Call us at 0471 92 05 81 or send an email to liebens.johan@telenet.be. A prescription from your doctor is often required for health insurance reimbursement. We're happy to guide you through the administration."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "available": "Available 24/7 - including weekends",
+    "success": "Form submitted successfully!",
+    "error": "Error submitting the form.",
+    "errorRetry": "Error submitting – please try again later.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Message is required"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "links": "Links"
+  },
+  "random": {
+    "privacy": "GDPR"
+  },
+  "accessibility": {
+    "backToTop": "Back to top"
+  },
+  "usp": {
+    "available": "Available 24/7",
+    "experience": "15 Years Experience",
+    "care": "Care with Love"
+  },
+
+  "vacancy": {
+    "title": "Join our team?",
+    "looking": "We're looking for a nurse or caregiver!",
+    "days": "Working days are flexible",
+    "contact": "Get in touch"
+  }
+}

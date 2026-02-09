@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Thuisverpleging Johan Liebens - Zorg aan huis"
+  },
+  "menu": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "plan": "Afspraak maken"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "en": "English",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": "Thuisverpleging Johan Liebens",
+    "subtitle": "Al 15 jaar zorg aan huis waarop u kunt vertrouwen",
+    "discoverServices": "Ontdek onze diensten",
+    "contactUs": "Bel ons nu"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "general": {
+      "title": "Algemene thuisverzorging met aandacht voor de mens",
+      "description": "Ons team van <strong>ervaren thuisverpleegkundigen</strong> zet zich elke dag in om u de beste zorgen aan huis te bieden.\n\n<strong>Empathie, betrokkenheid en menselijkheid</strong> staan bij ons centraal.\n\nEen vriendelijk woord, een luisterend oor of een geruststellende aanwezigheid - dat hoort bij goede zorg."
+    },
+    "woundCare": {
+      "title": "Wondzorg op maat",
+      "description": "Bij ons kunt u terecht voor de verzorging van <strong>alle soorten wonden</strong>.\n\nOns team heeft ruime ervaring met:\n• Brandwonden\n• Doorligwonden\n• Amputatiewonden\n• Postoperatieve wonden\n• Oncologische wonden\n\n<strong>Elke behandeling</strong> gebeurt in overleg met uw arts, zodat we de beste zorgstrategie kiezen."
+    },
+    "palliative": {
+      "title": "Palliatieve zorgen met respect en menselijkheid",
+      "description": "Dankzij onze <strong>jarenlange ervaring</strong> biedt ons team palliatieve zorgen aan.\n\nDeze zorg is volledig gericht op <strong>comfort, rust en waardigheid</strong>.\n\nWij respecteren de wensen van u en uw naasten. Wij nemen de tijd, luisteren en ondersteunen waar nodig."
+    },
+    "hygiene": {
+      "title": "Hygiënische zorgen met dat beetje extra",
+      "description": "Wanneer dagelijkse verzorging moeilijk wordt, staan wij klaar met <strong>discrete en professionele ondersteuning</strong>.\n\nOnze diensten omvatten:\n• Hulp bij wassen en aankleden\n• Dagelijkse hygiënische zorg\n• Verzorging van haren en oren\n• Nagels knippen\n• Hydratatie van het lichaam\n\nZo voelt u zich <strong>comfortabel en verzorgd</strong> in uw eigen huis."
+    },
+    "nursing": {
+      "title": "Verpleegkundige handelingen aan huis",
+      "description": "Wij voeren <strong>professionele verpleegkundige handelingen</strong> uit bij u thuis:\n\n• Spoelen van Port-a-cath\n• Blaasspoelingen\n• Bloeddrukmeting\n• Bloedafname met labocontrole\n• Vullen van medicatieboxen\n• Compressietherapie\n• Infusietherapie\n• Toedienen van medicatie\n• Oogdruppels toedienen\n\n<strong>Vakkundige zorg</strong> in uw vertrouwde omgeving."
+    },
+    "stoma": {
+      "title": "Gespecialiseerde stomazorgen",
+      "description": "Ons team is <strong>gespecialiseerd in stomazorgen</strong> aan huis.\n\nWij zorgen voor een correcte en comfortabele verzorging van de stoma.\n\nIndien gewenst <strong>leren wij u</strong> hoe u de stoma zelf kunt verzorgen. Zo krijgt u meer zelfstandigheid, met professionele ondersteuning binnen handbereik."
+    }
+  },
+  "about": {
+    "title": "Over Ons",
+    "description": "<strong>Thuisverpleging Johan Liebens</strong> is een ervaren team van thuisverpleegkundigen dat al <strong>15 jaar kwaliteitsvolle zorg</strong> aan huis biedt in de regio Kortenberg en Leuven.\n\nWij combineren professionele deskundigheid met een <strong>persoonlijke en menselijke aanpak</strong>, afgestemd op uw noden.\n\n<strong>Onze missie is duidelijk:</strong> mensen ondersteunen in hun herstel en welzijn, in hun eigen vertrouwde omgeving.\n\nOf het nu gaat om wondzorg, hygiënische zorgen, palliatieve zorg of stomazorgen - ons team staat elke dag klaar met <strong>kennis, zorg en respect</strong>.\n\nWij geloven dat goede zorg verder gaat dan medische handelingen alleen. Daarom nemen wij de tijd om te luisteren en samen te zoeken naar de beste oplossing.\n\n<strong>Thuisverpleging Johan Liebens is 24/7 bereikbaar</strong> - ook in het weekend en op feestdagen."
+  },
+  "area": {
+    "title": "Ons Werkgebied",
+    "description": "Thuisverpleging Johan Liebens biedt professionele zorg aan huis in heel Vlaams-Brabant. Wij komen bij u thuis in onderstaande gemeenten en omstreken."
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "q1": "Wat kost thuisverpleging?",
+    "a1": "Thuisverpleging wordt grotendeels terugbetaald door het ziekenfonds. Het exacte bedrag hangt af van uw zorgbehoefte en verzekering. Neem gerust contact met ons op voor een persoonlijke inschatting - wij helpen u graag verder.",
+    "q2": "In welke regio zijn jullie actief?",
+    "a2": "Wij zijn actief in Kortenberg, Leuven, Bertem, Zaventem, Steenokkerzeel, Perk, Leefdaal, Herent, Kessel-Lo, Oud-Heverlee, Heverlee, Wilsele en alle omliggende gemeenten in Vlaams-Brabant.",
+    "q3": "Is thuisverpleging ook in het weekend beschikbaar?",
+    "a3": "Ja, wij zijn 24 uur op 24, 7 dagen op 7 bereikbaar. Ook in het weekend en op feestdagen staan wij voor u klaar. U kunt altijd op ons rekenen.",
+    "q4": "Welke zorgen biedt een thuisverpleegkundige?",
+    "a4": "Onze thuisverpleegkundigen bieden wondzorg, palliatieve zorg, hygiënische zorgen, stomazorg, bloedafname, infuustherapie, medicatiebeheer, compressietherapie en vele andere verpleegkundige handelingen aan huis.",
+    "q5": "Hoe vraag ik thuisverpleging aan?",
+    "a5": "Heel eenvoudig! Bel ons op 0471 92 05 81 of stuur een e-mail naar liebens.johan@telenet.be. Een voorschrift van uw arts is vaak nodig voor terugbetaling door het ziekenfonds. Wij begeleiden u graag bij de administratie."
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "available": "24/7 bereikbaar - ook in het weekend",
+    "success": "Formulier succesvol verzonden!",
+    "error": "Fout bij het verzenden van het formulier.",
+    "errorRetry": "Fout bij het verzenden – probeer later opnieuw.",
+    "errors": {
+      "nameRequired": "Naam is verplicht",
+      "emailRequired": "E-mail is verplicht",
+      "emailInvalid": "Ongeldig e-mailadres",
+      "messageRequired": "Bericht is verplicht"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "links": "Links"
+  },
+  "random": {
+    "privacy": "GDPR"
+  },
+  "accessibility": {
+    "backToTop": "Terug naar boven"
+  },
+  "usp": {
+    "available": "24/7 Bereikbaar",
+    "experience": "15 Jaar Ervaring",
+    "care": "Zorg met Liefde"
+  },
+  "vacancy": {
+    "title": "Werken bij ons?",
+    "looking": "Wij zoeken een verpleegkundige of zorgkundige!",
+    "days": "Dagen zijn bespreekbaar",
+    "contact": "Neem contact op"
+  }
+}
