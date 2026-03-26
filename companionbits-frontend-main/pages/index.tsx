@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home = () => {
   const { t } = useTranslation("common");
@@ -44,26 +45,26 @@ const Home = () => {
   ];
 
   const serviceAreas = [
-    "Kortenberg",
-    "Bertem",
-    "Zaventem",
-    "Steenokkerzeel",
-    "Perk",
-    "Leefdaal",
-    "Herent",
-    "Leuven",
-    "Kessel-Lo",
-    "Oud-Heverlee",
-    "Heverlee",
-    "Wilsele",
-    "Erps-Kwerps",
-    "Everberg",
-    "Meerbeek",
-    "Veltem-Beisem",
-    "Winksele",
-    "Holsbeek",
-    "Lubbeek",
-    "Tervuren",
+    { naam: "Kortenberg", slug: "kortenberg" },
+    { naam: "Bertem", slug: "bertem" },
+    { naam: "Zaventem", slug: "zaventem" },
+    { naam: "Steenokkerzeel", slug: "steenokkerzeel" },
+    { naam: "Perk", slug: "perk" },
+    { naam: "Leefdaal", slug: "leefdaal" },
+    { naam: "Herent", slug: "herent" },
+    { naam: "Leuven", slug: "leuven" },
+    { naam: "Kessel-Lo", slug: "kessel-lo" },
+    { naam: "Oud-Heverlee", slug: "oud-heverlee" },
+    { naam: "Heverlee", slug: "heverlee" },
+    { naam: "Wilsele", slug: "wilsele" },
+    { naam: "Erps-Kwerps", slug: "erps-kwerps" },
+    { naam: "Everberg", slug: "everberg" },
+    { naam: "Meerbeek", slug: "meerbeek" },
+    { naam: "Veltem-Beisem", slug: "veltem-beisem" },
+    { naam: "Winksele", slug: "winksele" },
+    { naam: "Holsbeek", slug: "holsbeek" },
+    { naam: "Lubbeek", slug: "lubbeek" },
+    { naam: "Tervuren", slug: "tervuren" },
   ];
 
   const structuredData = {
@@ -72,7 +73,20 @@ const Home = () => {
     name: "Thuisverpleging Johan Liebens",
     telephone: "+32471920581",
     email: "liebens.johan@telenet.be",
-    areaServed: serviceAreas.map((city) => ({ "@type": "City", name: city })),
+    url: "https://www.thuisverplegingjohanliebens.be/nl",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Kortenberg",
+      addressRegion: "Vlaams-Brabant",
+      addressCountry: "BE",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.8833,
+      longitude: 4.5333,
+    },
+    openingHours: "Mo-Su 00:00-23:59",
+    areaServed: serviceAreas.map((s) => ({ "@type": "City", name: s.naam })),
   };
 
   const renderFormattedText = (text: string) => {
@@ -93,13 +107,34 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Thuisverpleging Johan Liebens | Kortenberg & Leuven</title>
+        <title>
+          Thuisverpleging Kessel-Lo, Leuven & Kortenberg | Johan Liebens
+        </title>
         <meta
           name="description"
-          content="Thuisverpleging in Kortenberg, Leuven en omgeving. 15 jaar ervaring, 24/7 bereikbaar. Bel 0471 92 05 81"
+          content="Professionele thuisverpleging in Kessel-Lo, Leuven, Kortenberg en heel Vlaams-Brabant. 24/7 bereikbaar voor wondzorg, palliatieve zorg en hygiënische zorgen. 15 jaar ervaring. Bel 0471 92 05 81."
         />
         <meta name="robots" content="index, follow" />
         <link rel="icon" type="image/png" href="/logoB.png" />
+        <link
+          rel="canonical"
+          href="https://www.thuisverplegingjohanliebens.be/nl"
+        />
+        <link
+          rel="alternate"
+          hrefLang="nl"
+          href="https://www.thuisverplegingjohanliebens.be/nl"
+        />
+        <link
+          rel="alternate"
+          hrefLang="fr"
+          href="https://www.thuisverplegingjohanliebens.be/fr"
+        />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://www.thuisverplegingjohanliebens.be/en"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -150,7 +185,7 @@ const Home = () => {
           </section>
 
           {/* USP */}
-          <section className="bg-orange-300  py-12">
+          <section className="bg-orange-300 py-12">
             <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-center gap-8 text-center text-black">
               <div className="flex-1">
                 <p className="text-xl font-bold mt-2">{t("usp.available")}</p>
@@ -212,13 +247,14 @@ const Home = () => {
                 {t("area.description")}
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                {serviceAreas.map((city, index) => (
-                  <span
-                    key={index}
+                {serviceAreas.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/thuisverpleging/${s.slug}`}
                     className="bg-orange-300 text-black px-5 py-2 rounded-full font-medium hover:text-white hover:bg-pinkcustom transition-colors"
                   >
-                    {city}
-                  </span>
+                    {s.naam}
+                  </Link>
                 ))}
               </div>
             </div>
