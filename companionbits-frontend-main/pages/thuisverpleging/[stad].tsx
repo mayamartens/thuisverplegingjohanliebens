@@ -2,38 +2,30 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const serviceAreas = [
-  { naam: "Kortenberg", slug: "kortenberg" },
-  { naam: "Bertem", slug: "bertem" },
-  { naam: "Zaventem", slug: "zaventem" },
-  { naam: "Steenokkerzeel", slug: "steenokkerzeel" },
-  { naam: "Perk", slug: "perk" },
-  { naam: "Leefdaal", slug: "leefdaal" },
-  { naam: "Herent", slug: "herent" },
-  { naam: "Leuven", slug: "leuven" },
-  { naam: "Kessel-Lo", slug: "kessel-lo" },
-  { naam: "Oud-Heverlee", slug: "oud-heverlee" },
-  { naam: "Heverlee", slug: "heverlee" },
-  { naam: "Wilsele", slug: "wilsele" },
-  { naam: "Erps-Kwerps", slug: "erps-kwerps" },
-  { naam: "Everberg", slug: "everberg" },
-  { naam: "Meerbeek", slug: "meerbeek" },
-  { naam: "Veltem-Beisem", slug: "veltem-beisem" },
-  { naam: "Winksele", slug: "winksele" },
-  { naam: "Holsbeek", slug: "holsbeek" },
-  { naam: "Lubbeek", slug: "lubbeek" },
-  { naam: "Tervuren", slug: "tervuren" },
-];
+import { serviceAreas } from "@/data/serviceAreas";
 
 type Props = {
   stad: string;
   slug: string;
+  postcode: string;
+  deelgemeenten: string;
+  intro: string;
+  lokaleContext: string;
 };
 
-const StadPage = ({ stad, slug }: Props) => {
+const StadPage = ({
+  stad,
+  slug,
+  postcode,
+  deelgemeenten,
+  intro,
+  lokaleContext,
+}: Props) => {
+  const { locale } = useRouter();
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
@@ -44,19 +36,27 @@ const StadPage = ({ stad, slug }: Props) => {
     address: {
       "@type": "PostalAddress",
       addressLocality: stad,
+      postalCode: postcode,
       addressRegion: "Vlaams-Brabant",
       addressCountry: "BE",
     },
+    areaServed: {
+      "@type": "City",
+      name: stad,
+      postalCode: postcode,
+    },
     openingHours: "Mo-Su 00:00-23:59",
+    priceRange: "Terugbetaald via ziekenfonds",
+    hasMap: `https://www.google.com/maps/search/thuisverpleging+${encodeURIComponent(stad)}`,
   };
 
   return (
     <>
       <Head>
-        <title>{`Thuisverpleging ${stad} | Johan Liebens – 24/7 bereikbaar`}</title>
+        <title>{`Thuisverpleging ${stad} (${postcode}) | Johan Liebens – 24/7 bereikbaar`}</title>
         <meta
           name="description"
-          content={`Professionele thuisverpleging in ${stad}. Johan Liebens biedt wondzorg, palliatieve zorg, hygiënische zorgen en meer. 24/7 bereikbaar. 15 jaar ervaring. Bel 0471 92 05 81.`}
+          content={`Thuisverpleging in ${stad} (${postcode}): wondzorg, palliatieve zorg, hygiënische zorgen en meer. Johan Liebens, 24/7 bereikbaar, 15 jaar ervaring. Bel 0471 92 05 81.`}
         />
         <meta name="robots" content="index, follow" />
         <link
@@ -80,8 +80,9 @@ const StadPage = ({ stad, slug }: Props) => {
                   Thuisverpleging {stad}
                 </h1>
                 <p className="text-xl text-black mb-8">
-                  Professionele zorg aan huis in {stad} en omgeving. Al 15 jaar
-                  uw vertrouwde thuisverpleegkundige in Vlaams-Brabant.
+                  Professionele zorg aan huis in {stad} ({postcode}) en
+                  omgeving. Al 15 jaar uw vertrouwde thuisverpleegkundige in
+                  Vlaams-Brabant.
                 </p>
                 <p className="text-3xl font-bold text-pinkcustom mb-8">
                   0471 92 05 81
@@ -111,24 +112,21 @@ const StadPage = ({ stad, slug }: Props) => {
             </div>
           </section>
 
-          {/* Lokale tekst */}
+          {/* Lokale tekst — uniek per gemeente */}
           <section className="bg-white py-20">
             <div className="max-w-4xl mx-auto px-6">
               <h2 className="text-3xl font-bold text-pinkcustom mb-8">
                 Thuisverpleging aan huis in {stad}
               </h2>
+              <p className="text-lg text-black leading-relaxed mb-6">{intro}</p>
               <p className="text-lg text-black leading-relaxed mb-6">
-                Bent u op zoek naar een betrouwbare thuisverpleegkundige in{" "}
-                {stad}? Thuisverpleging Johan Liebens staat voor u klaar. Wij
-                bieden kwalitatieve zorg aan huis in {stad} en de ruimere regio
-                Vlaams-Brabant.
+                {lokaleContext}
               </p>
               <p className="text-lg text-black leading-relaxed mb-6">
-                Met meer dan 15 jaar ervaring combineert ons team professionele
-                deskundigheid met een persoonlijke en menselijke aanpak. Of het
-                nu gaat om wondzorg, palliatieve zorg, hygiënische zorgen of
-                gespecialiseerde verpleegkundige handelingen — wij komen naar u
-                toe in {stad}.
+                Wij zijn actief in {stad} en de omliggende deelgemeenten:{" "}
+                <strong>{deelgemeenten}</strong>. Met meer dan 15 jaar ervaring
+                combineert ons team professionele deskundigheid met een
+                persoonlijke en menselijke aanpak.
               </p>
               <p className="text-lg text-black leading-relaxed">
                 Wij zijn{" "}
@@ -169,7 +167,7 @@ const StadPage = ({ stad, slug }: Props) => {
               </div>
               <div className="text-center mt-10">
                 <Link
-                  href="/nl"
+                  href={`/${locale}`}
                   className="inline-block bg-pinkcustom text-white font-bold rounded-full px-10 py-4 text-xl shadow-lg hover:bg-red-950 transition-colors"
                 >
                   Bekijk alle diensten
@@ -221,7 +219,7 @@ const StadPage = ({ stad, slug }: Props) => {
                   .map((s) => (
                     <Link
                       key={s.slug}
-                      href={`/thuisverpleging/${s.slug}`}
+                      href={`/${locale}/thuisverpleging/${s.slug}`}
                       className="bg-orange-300 text-black px-5 py-2 rounded-full font-medium hover:bg-pinkcustom hover:text-white transition-colors"
                     >
                       {s.naam}
@@ -245,7 +243,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
       locale,
     })),
   );
-
   return { paths, fallback: false };
 };
 
@@ -259,6 +256,10 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     props: {
       stad: gevonden.naam,
       slug: gevonden.slug,
+      postcode: gevonden.postcode,
+      deelgemeenten: gevonden.deelgemeenten,
+      intro: gevonden.intro,
+      lokaleContext: gevonden.lokaleContext,
       ...(await serverSideTranslations(locale ?? "nl", ["common"])),
     },
   };
